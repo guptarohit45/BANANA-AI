@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placement Analytics Dashboard</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #1CB5E0, #000851);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .container {
+            background: white;
+            color: black;
+            padding: 30px;
+            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+        }
+
+        img {
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #1CB5E0;
+            color: white;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background: #000851;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>📊 Placement Analytics Dashboard</h2>
+
+    <h3>Placement Distribution</h3>
+    <img src="{{ url_for('static', filename='pie.png') }}" width="350">
+
+    <h3>Average CGPA by Placement</h3>
+    <img src="{{ url_for('static', filename='bar.png') }}" width="350">
+
+    <h3>Feature Importance</h3>
+    <img src="{{ url_for('static', filename='importance.png') }}" width="500">
+
+    <br><br>
+    <a href="/">⬅ Back to Home</a>
+</div>
+
+</body>
+</html>
