@@ -115,7 +115,7 @@ Through this project you will learn:
 
 Rohit Gupta
 Computer Science Student
-Learning Python | SQL | Machine Learning | Data Science
+Learning Python | SQL | Machine Learning | Power BI | Data Science
 
 ⭐ Support
 
